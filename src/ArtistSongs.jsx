@@ -17,26 +17,23 @@ export const songs = [
     releaseDate: 'June 22, 2017',
     coverArt: PlayingWithFire,
   },
+
   {
     songId: 3,
-    name: 'How You Like That',
-    releaseDate: 'June 26, 2020',
-    coverArt: HowYouLikeThat,
-  },
-  {
-    songId: 4,
     name: 'DDU-DU DDU-DU',
     releaseDate: 'June 15, 2018',
     coverArt: DuDuDu,
   },
   {
+    songId: 4,
+    name: 'How You Like That',
+    releaseDate: 'June 26, 2020',
+    coverArt: HowYouLikeThat,
+  },
+  {
+    songId: 5,
     name: 'Typa Girl',
     releaseDate: 'June 26, 2020',
     coverArt: TypaGirl,
-  },
-  {
-    name: 'How You Like That',
-    releaseDate: 'June',
-    coverArt: HowYouLikeThat,
   },
 ]
