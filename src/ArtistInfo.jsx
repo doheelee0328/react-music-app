@@ -8,7 +8,7 @@ const ArtistProfile = () => {
         Jennie, Rosé, and Lisa. Known for their energetic performances and
         catchy pop music, they have gained global recognition as one of the most
         popular K-pop acts, breaking records and amassing a massive fanbase
-        worldwide.
+        worldwide!
       </p>
     </>
   )
