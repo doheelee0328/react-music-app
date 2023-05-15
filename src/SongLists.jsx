@@ -10,6 +10,14 @@ const SongLists = () => {
     setColourHeart((prev) => !prev)
   }
 
+  let likes = (
+    <HeartIcons changeColourHandler={changeColourHandler}></HeartIcons>
+  )
+
+  if (colourHeart) {
+    likes = <ColouredHeartIcons changeColourHandler={changeColourHandler} />
+  }
+
   return (
     <>
       {songs.map(({ id, name, releaseDate, coverArt }) => (
@@ -17,11 +25,7 @@ const SongLists = () => {
           <p>{name}</p>
           <p>{releaseDate}</p>
           <img src={coverArt} alt='songs' />
-          {colourHeart ? (
-            <ColouredHeartIcons changeColourHandler={changeColourHandler} />
-          ) : (
-            <HeartIcons changeColourHandler={changeColourHandler}></HeartIcons>
-          )}
+          {likes}
         </div>
       ))}
     </>
