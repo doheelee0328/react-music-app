@@ -1,22 +1,23 @@
 import { useState } from 'react'
+// import SongLists from './SongLists'
 
-const Form = () => {
+const Form = ({ filterHandler, showSongsHandlder }) => {
   const [text, setText] = useState('')
-  const [submit, setSubmit] = useState('')
+  // const [submit, setSubmit] = useState('')
   const inputTextHandler = (e) => {
     setText(e.target.value)
   }
   const submitHandler = (e) => {
     e.preventDefault()
-
-    setSubmit(text)
+    showSongsHandlder()
+    filterHandler(text)
     setText('')
   }
   return (
-    <form onClick={submitHandler}>
+    <form onSubmit={submitHandler}>
+      <p>Find you favourite song name</p>
       <input type='text' onChange={inputTextHandler} value={text}></input>
-      <button type='button'>Submit</button>
-      {submit}
+      <button type='submit'>Submit</button>
     </form>
   )
 }
