@@ -13,5 +13,4 @@ describe('SongList component', () => {
   beforeEach(() => {
     render(<SongLists />)
   })
-  it('should display the songs correctly', () => {})
 })

@@ -15,6 +15,12 @@ const Navbar = () => {
         <li>
           <NavLink to='/findSongs'>Find Your Songs</NavLink>
         </li>
+        <li>
+          <NavLink to='/addSongs'>Add your Song Here</NavLink>
+        </li>
+        <li>
+          <NavLink to='/login'>LogOut</NavLink>
+        </li>
       </ul>
       <Outlet />
     </>

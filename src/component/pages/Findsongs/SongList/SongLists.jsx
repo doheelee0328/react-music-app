@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { ColouredHeartIcons, HeartIcons } from '../../..'
 
 const SongLists = ({ filterSongs }) => {
@@ -16,14 +16,23 @@ const SongLists = ({ filterSongs }) => {
     likes = <ColouredHeartIcons changeColourHandler={changeColourHandler} />
   }
 
-  const songLists = filterSongs.map(({ id, name, releaseDate, coverArt }) => (
-    <div key={id}>
-      <p>{name}</p>
-      <p>{releaseDate}</p>
-      <img src={coverArt} alt='songs' />
-      {likes}
-    </div>
-  ))
+  const audioRef = useRef()
+  const songLists = filterSongs.map(
+    ({ id, name, releaseDate, coverArt, audio }) => (
+      <div key={id}>
+        <p>{name}</p>
+        <p>{releaseDate}</p>
+        <img src={coverArt} alt='songs' />
+
+        {/* <audio controls ref={audioRef}>
+          <source src={audio} type='audio/mpeg' style={{ width: '10px' }} />
+          Your browser does not support the audio element.
+        </audio> */}
+
+        {likes}
+      </div>
+    )
+  )
 
   return <>{songLists}</>
 }

@@ -12,8 +12,13 @@ describe('ArtistInfo', () => {
   beforeEach(() => {
     render(<ArtistInfo></ArtistInfo>)
   })
-  it('should have the right heading', () => {
+  it('should have the right heading for the blackpink title', () => {
     const title = screen.getByRole('heading', { name: 'Blackpink' })
     expect(title).toBeInTheDocument()
+  })
+
+  it('should have the paragraph', () => {
+    const paragraph = screen.getAllByTestId('blackpink-description')[0]
+    expect(paragraph).toBeInTheDocument()
   })
 })

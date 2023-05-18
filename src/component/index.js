@@ -1,5 +1,7 @@
 export { default as ArtistInfo } from './pages/ArtistInfo/ArtistInfo.jsx'
 export { default as ColouredHeartIcons } from './icons/ColourHeartIcons.jsx'
 export { default as HeartIcons } from './icons/HeartIcons.jsx'
-export { default as Home } from './Home/Home.jsx'
+export { default as Home } from './pages/Home/Home.jsx'
 export { default as Navbar } from './Navbar/Navbar.jsx'
+export { default as Login } from './Login/Login.jsx'
+export { default as PageNotFound } from './PageNotFound/PageNotFound.jsx'

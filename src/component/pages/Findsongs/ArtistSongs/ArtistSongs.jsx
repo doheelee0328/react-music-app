@@ -3,6 +3,7 @@ import PlayingWithFire from '../../../../images/playingWithFire.jpeg'
 import HowYouLikeThat from '../../../../images/Blackpink_-_How_You_Like_That.png'
 import TypaGirl from '../../../../images/Typagirl.jpg'
 import DuDuDu from '../../../../images/dududu.png'
+// import audioWhistle from '../../../audio/whistle.mp3'
 
 export const songs = [
   {
@@ -10,6 +11,8 @@ export const songs = [
     name: 'Whistle',
     releaseDate: 'August 8, 2016',
     coverArt: Whistle,
+    url: 'https://youtu.be/FVRi9pwoSMk',
+    // audio: audioWhistle,
   },
   {
     songId: 2,
