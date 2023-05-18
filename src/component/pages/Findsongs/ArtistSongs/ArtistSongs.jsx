@@ -1,8 +1,8 @@
-import Whistle from './images/whistle.jpeg'
-import PlayingWithFire from './images/playingWithFire.jpeg'
-import HowYouLikeThat from './images/Blackpink_-_How_You_Like_That.png'
-import TypaGirl from './images/Typagirl.jpg'
-import DuDuDu from './images/dududu.png'
+import Whistle from '../../../../images/whistle.jpeg'
+import PlayingWithFire from '../../../../images/playingWithFire.jpeg'
+import HowYouLikeThat from '../../../../images/Blackpink_-_How_You_Like_That.png'
+import TypaGirl from '../../../../images/Typagirl.jpg'
+import DuDuDu from '../../../../images/dududu.png'
 
 export const songs = [
   {

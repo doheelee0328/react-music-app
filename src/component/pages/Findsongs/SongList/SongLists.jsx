@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import HeartIcons from './icons/HeartIcons'
-import ColouredHeartIcons from './icons/ColourHeartIcons'
+import { ColouredHeartIcons, HeartIcons } from '../../..'
 
 const SongLists = ({ filterSongs }) => {
   const [colourHeart, setColourHeart] = useState(false)

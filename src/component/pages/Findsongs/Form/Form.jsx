@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import SongLists from './SongLists'
 
-const Form = ({ filterHandler, showSongsHandlder }) => {
+const Form = ({ filterHandler }) => {
   const [text, setText] = useState('')
   // const [submit, setSubmit] = useState('')
   const inputTextHandler = (e) => {
@@ -9,9 +9,10 @@ const Form = ({ filterHandler, showSongsHandlder }) => {
   }
   const submitHandler = (e) => {
     e.preventDefault()
-    showSongsHandlder()
-    filterHandler(text)
-    setText('')
+    if (text !== '') {
+      filterHandler(text)
+      setText('')
+    }
   }
   return (
     <form onSubmit={submitHandler}>
