@@ -19,8 +19,8 @@ describe('PageWrapper component', () => {
   })
 
   it('should display navbar 2 children', () => {
-    const nav = screen.getByRole('navigation')
+    const nav = screen.getByRole('list')
     expect(nav).toBeInTheDocument()
-    expect(nav.childNodes.length).toBe(2)
+    expect(nav.childNodes.length).toBe(5)
   })
 })

@@ -5,8 +5,10 @@ import SongList from '../SongList/SongList'
 const AddSongs = () => {
   const [listSongs, setListSongs] = useState([])
 
-  const addSongs = (songName) => {
-    setListSongs((prev) => [...prev, songName])
+  const addSongs = (song) => {
+    setListSongs((prev) => {
+      return [song, ...prev]
+    })
   }
 
   const deleteSongs = (id) => {
