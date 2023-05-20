@@ -7,7 +7,6 @@ import matchers from '@testing-library/jest-dom/matchers'
 expect.extend(matchers)
 
 import SongLists from '../SongList/SongLists'
-import ColouredHeartIcons from '../../../icons/ColourHeartIcons'
 
 describe('SongList component', () => {
   it('should display song information correctly', () => {

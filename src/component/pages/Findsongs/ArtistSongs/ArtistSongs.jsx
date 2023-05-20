@@ -7,6 +7,7 @@ import AsIf from '../../../../images/As.jpeg'
 import LoveSick from '../../../../images/loveSick.jpeg'
 import KillThis from '../../../../images/kill.jpeg'
 import Boombayah from '../../../../images/bombayah.jpeg'
+import PinkVenom from '../../../../images/Pink_Venom_Cover.jpeg'
 
 import audioWhistle from '../../../audio/whistle.mp3'
 import audioAs from '../../../audio/as.mp3'
@@ -22,6 +23,7 @@ import audioKill from '../../../audio/killthis.mp3'
 import audioShut from '../../../audio/shutDown.mp3'
 import audioPretty from '../../../audio/pretty.mp3'
 import audioBoom from '../../../audio/boom.mp3'
+import audioPinkVenom from '../../../audio/pink venom.mp3'
 
 export const songs = [
   {
@@ -122,5 +124,12 @@ export const songs = [
     releaseDate: 'August 8, 2016',
     coverArt: Boombayah,
     audio: audioBoom,
+  },
+  {
+    songId: 15,
+    name: 'Pink Venom',
+    releaseDate: 'August 19, 2022',
+    coverArt: PinkVenom,
+    audio: audioPinkVenom,
   },
 ]

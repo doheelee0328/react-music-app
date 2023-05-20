@@ -1,9 +1,18 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { ColouredHeartIcons, HeartIcons } from '../../..'
 import './style.css'
+import { useSelector } from 'react-redux'
+// import * as actionCreators from './action-creators'
+// import { bindActionCreators } from 'redux'
 
-const SongLists = ({ filterSongs }) => {
+const SongLists = () => {
   const [colourHeart, setColourHeart] = useState(false)
+
+  const filterSongs = useSelector((state) => state.filterSong)
+
+  // const dispatch = useDispatch()
+
+  // const { filterSong } = bindActionCreators(actionCreators, dispatch)
 
   const changeColourHandler = () => {
     setColourHeart((prev) => !prev)

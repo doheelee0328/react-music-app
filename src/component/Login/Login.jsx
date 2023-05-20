@@ -30,13 +30,13 @@ const Login = () => {
   // console.log(inputRef.current.value)
   return (
     <form onSubmit={submitHandler}>
-      <video loop muted autoPlay preload='auto' className='video'>
+      {/* <video loop muted autoPlay preload='auto' className='video'>
         <source
-          src='https://liam87.oceansaver.in/pacific/?Ae5UTXezL8MLOF9zHCoIQYdpOIR'
+          src='https://riley4.oceansaver.in/pacific/?fM7W5DG4Rgz2fZsEtD6JMug3iLd'
           type='video/mp4'
         />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <label htmlFor='name'>Choose Your Favourite Blackpink Member</label>
       <input
         type='type'
