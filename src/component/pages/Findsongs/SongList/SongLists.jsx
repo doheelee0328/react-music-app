@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ColouredHeartIcons, HeartIcons } from '../../..'
 import './style.css'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 // import * as actionCreators from './action-creators'
 // import { bindActionCreators } from 'redux'
 
@@ -34,7 +35,9 @@ const SongLists = () => {
       <div key={songId}>
         <p role='name'>{name}</p>
         <p role='date'>{releaseDate}</p>
-        <img src={coverArt} alt={name} />
+        <Link to={`/findSongs/${songId}`}>
+          <img src={coverArt} alt={name} />
+        </Link>
 
         <audio controls className='audio' data-testid='audio'>
           <source src={audio} type='audio/mpeg' />
