@@ -28,11 +28,42 @@ export const Image = styled.img`
 export const Paragraph = styled.p`
   font-size: 25px;
 `
-
+export const Paragraph2 = styled.span`
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    color: ${theme.color.pink};
+  }
+`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 400px;
   margin-left: 100px;
   margin-top: 30px;
+`
+export const Container2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 240px;
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: center;
+`
+export const SongContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+`
+
+export const MoreContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+`
+export const Heading2 = styled.h1`
+  font-size: 50px;
+  color: ${theme.color.pink};
+  font-weight: 900;
 `

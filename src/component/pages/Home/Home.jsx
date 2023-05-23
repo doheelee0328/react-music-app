@@ -1,7 +1,18 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useAuthentication } from '../../context/context'
 import BlackpinkRectangle from '../../../images/Rectangle 10 (2).png'
-import { Heading, Span, Image, Paragraph, Container } from './Styled'
+import {
+  Heading,
+  Span,
+  Image,
+  Paragraph,
+  Container,
+  Paragraph2,
+  Container2,
+  SongContainer,
+  MoreContainer,
+  Heading2,
+} from './Styled'
 
 const Home = () => {
   const { user } = useAuthentication()
@@ -30,19 +41,39 @@ const Home = () => {
         "Lisa is an incredible choice! She's a phenomenal dancer and has a unique sense of style!"
       break
     default:
-      message = 'That is not the name of the blackpink member but Welcome!!!'
+      message = 'That is not the name of the blackpink member but welcome!!!'
   }
 
   return (
     <>
       <Image src={BlackpinkRectangle} alt='blackpink' />
-      <Container>
-        <Heading>
-          You chose <Span>{user}!</Span>
-          <div></div>
-        </Heading>
-        <Paragraph>{message}</Paragraph>
-      </Container>
+      <MoreContainer>
+        <Container>
+          <Heading>
+            You chose <Span>{user}!</Span>
+          </Heading>
+          <Paragraph>{message}</Paragraph>
+        </Container>
+        <Container2>
+          <Heading2>Songs</Heading2>
+          <MoreContainer>
+            <SongContainer>
+              <Paragraph2>Whistle</Paragraph2>
+              <Paragraph2>Playing With Fire</Paragraph2>
+              <Paragraph2>How You Like That</Paragraph2>
+              <Paragraph2>Typa Girl</Paragraph2>
+              <Paragraph2>DuDuDu</Paragraph2>
+            </SongContainer>
+            <SongContainer>
+              <Paragraph2>As If It’s Your Last</Paragraph2>
+              <Paragraph2>Love Sick</Paragraph2>
+              <Paragraph2>See U Later</Paragraph2>
+              <Paragraph2>Really</Paragraph2>
+              <Paragraph2>Boombayah</Paragraph2>
+            </SongContainer>
+          </MoreContainer>
+        </Container2>
+      </MoreContainer>
     </>
   )
 }
