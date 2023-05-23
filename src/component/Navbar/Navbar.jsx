@@ -1,44 +1,46 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
+import { Container, List } from './Styled'
+import { theme } from '../../theme/theme'
+import './style.css'
 
 const Navbar = () => {
   const activeStyle = {
-    textDecoration: 'underline',
-    color: 'red',
+    color: theme.color.pink,
   }
 
   const navActive = ({ isActive }) => (isActive ? activeStyle : undefined)
 
   return (
     <>
-      <ul>
-        <li>
+      <Container>
+        <List>
           <NavLink to='/' style={navActive}>
             Home
           </NavLink>
-        </li>
-        <li>
+        </List>
+        <List>
           <NavLink to='/about' style={navActive}>
             About
           </NavLink>
-        </li>
-        <li>
+        </List>
+        <List>
           <NavLink to='/findSongs' style={navActive}>
             Find Your Songs
           </NavLink>
-        </li>
-        <li>
+        </List>
+        <List>
           <NavLink to='/addSongs' style={navActive}>
             Add your Song Here
           </NavLink>
-        </li>
-        <li>
+        </List>
+        <List>
           <NavLink to='/login' style={navActive}>
             LogOut
           </NavLink>
-        </li>
-      </ul>
+        </List>
+      </Container>
       <Outlet />
     </>
   )

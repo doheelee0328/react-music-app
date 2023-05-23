@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { useAuthentication } from '../../context/context'
+import BlackpinkRectangle from '../../../images/Rectangle 10 (2).png'
+import { Heading, Span, Image, Paragraph, Container } from './Styled'
 
 const Home = () => {
   const { user } = useAuthentication()
@@ -33,8 +35,14 @@ const Home = () => {
 
   return (
     <>
-      <h1> You chose {user}!</h1>
-      <p>{message}</p>
+      <Image src={BlackpinkRectangle} alt='blackpink' />
+      <Container>
+        <Heading>
+          You chose <Span>{user}!</Span>
+          <div></div>
+        </Heading>
+        <Paragraph>{message}</Paragraph>
+      </Container>
     </>
   )
 }

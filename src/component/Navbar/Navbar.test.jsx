@@ -9,7 +9,7 @@ expect.extend(matchers)
 
 import Navbar from './Navbar'
 
-describe('PageWrapper component', () => {
+describe('Navbar component', () => {
   beforeEach(() => {
     render(
       <MemoryRouter>
