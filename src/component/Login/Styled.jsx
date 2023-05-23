@@ -19,10 +19,11 @@ export const Input = styled.div`
   padding-top: 60px;
 
   label {
+    display: flex;
     font-size: 34px;
     color: ${theme.color.pink};
     font-weight: 900;
-    width: 400px;
+    max-width: 50vh;
     text-align: center;
   }
 
