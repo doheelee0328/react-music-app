@@ -1,6 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useAuthentication } from '../context/context'
 import { useNavigate } from 'react-router-dom'
+import Button from '../Button/Button'
+import BlackPinkImage from '../../images/blackpink.png'
+
+import { Form, Input, Image } from './Styled.jsx'
+import { primaryButton } from '../Button/Styled'
 
 const Login = () => {
   const directTo = useNavigate()
@@ -29,23 +34,26 @@ const Login = () => {
 
   // console.log(inputRef.current.value)
   return (
-    <form onSubmit={submitHandler}>
-      {/* <video loop muted autoPlay preload='auto' className='video'>
-        <source
-          src='https://riley4.oceansaver.in/pacific/?fM7W5DG4Rgz2fZsEtD6JMug3iLd'
-          type='video/mp4'
+    <Form onSubmit={submitHandler}>
+      {/* <form onSubmit={submitHandler}> */}
+      <Image>
+        <img src={BlackPinkImage} alt='blackpink' />
+      </Image>
+      <Input>
+        <label htmlFor='name'>Enter Your Favourite Blackpink Member</label>
+        <input
+          type='type'
+          onChange={inputNameHandler}
+          value={inputName}
+          ref={nameRef}
         />
-        Your browser does not support the video tag.
-      </video> */}
-      <label htmlFor='name'>Choose Your Favourite Blackpink Member</label>
-      <input
-        type='type'
-        onChange={inputNameHandler}
-        value={inputName}
-        ref={nameRef}
-      />
-      <button type='submit'>Submit</button>
-    </form>
+        <Button
+          displayText='Submit'
+          type='submit'
+          styledProps={primaryButton}
+        ></Button>
+      </Input>
+    </Form>
   )
 }
 

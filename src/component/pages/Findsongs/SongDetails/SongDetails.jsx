@@ -31,7 +31,7 @@ const SongDetails = () => {
       <button onClick={showKoreanHandler}>
         Show Korean / Roman Characters
       </button>
-      {!showKorean ? <p>{filter.lyrics2}</p> : <p>{filter.lyrics}</p>}
+      {showKorean ? <p>{filter.lyrics2}</p> : <p>{filter.lyrics}</p>}
 
       <button onClick={goBackButton}>Back</button>
     </>

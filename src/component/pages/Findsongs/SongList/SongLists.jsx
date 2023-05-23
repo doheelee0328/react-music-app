@@ -1,10 +1,7 @@
 import { useState } from 'react'
 import { ColouredHeartIcons, HeartIcons } from '../../..'
-import './style.css'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-// import * as actionCreators from './action-creators'
-// import { bindActionCreators } from 'redux'
 
 const SongLists = () => {
   const [colourHeart, setColourHeart] = useState(false)

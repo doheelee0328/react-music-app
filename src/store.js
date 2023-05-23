@@ -1,11 +1,7 @@
-import { legacy_createStore as createStore, applyMiddleware } from 'redux'
-import { composeWithDevTools } from 'redux-devtools-extension'
-import thunk from 'redux-thunk'
-// import { devToolsEnhancer } from 'redux-devtools-extension'
-import allReducers from './component/Reducer'
+import { legacy_createStore as createStore } from 'redux'
 
-const composeFunctions = composeWithDevTools(...[applyMiddleware(thunk)])
-
-const store = createStore(allReducers, composeFunctions)
+import { devToolsEnhancer } from 'redux-devtools-extension'
+import filterSongs from './component/Reducer/FilterSongs'
+const store = createStore(filterSongs, devToolsEnhancer())
 
 export default store
