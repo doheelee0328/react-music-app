@@ -4,7 +4,7 @@ const SongList = ({ listSongs, deleteSongs }) => {
   return (
     <>
       {listSongs.map((el, index) => (
-        <div key={index}>
+        <div key={index}>  
           <p>SongName: {el.songName}</p>
           <img src={el.songImage} alt={index} />
           <audio controls className='audio'>
