@@ -24,7 +24,7 @@ export const songs = [
   {
     songId: 1,
     name: 'Whistle',
-    releaseDate: 'August 8, 2016',
+    releaseDate: 'August 8 2016',
     coverArt: Whistle,
     audio: audioWhistle,
     lyrics: `Hey boy
@@ -225,7 +225,7 @@ export const songs = [
   {
     songId: 2,
     name: "As If It's Your Last",
-    releaseDate: 'June 22, 2017',
+    releaseDate: 'June 22 2017',
     coverArt: AsIf,
     audio: audioAs,
     lyrics1: `Little bit of that
@@ -397,7 +397,7 @@ export const songs = [
   {
     songId: 3,
     name: 'DDU-DU DDU-DU',
-    releaseDate: 'June 15, 2018',
+    releaseDate: 'June 15 2018',
     coverArt: DuDuDu,
     audio: audioDu,
     lyrics: `BLACKPINK!
@@ -560,7 +560,7 @@ export const songs = [
   {
     songId: 4,
     name: 'How You Like That',
-    releaseDate: 'June 26, 2020',
+    releaseDate: 'June 26 2020',
     coverArt: HowYouLikeThat,
     audio: audioHow,
     lyrics: `LACKPINK in your area
@@ -715,7 +715,7 @@ export const songs = [
   {
     songId: 5,
     name: 'Typa Girl',
-    releaseDate: 'September 16, 2022',
+    releaseDate: 'September 16 2022',
     coverArt: TypaGirl,
     audio: audioTypa,
     lyrics: `Typa girl that'll make you wanna dream (Shake, shake)
@@ -778,7 +778,7 @@ export const songs = [
   {
     songId: 6,
     name: 'Playing With Fire',
-    releaseDate: 'November 1, 2016',
+    releaseDate: 'November 1 2016',
     coverArt: PlayingWithFire,
     audio: audioFire,
     lyrics: `Uri eomman maeil naege malhaesseo
@@ -901,7 +901,7 @@ export const songs = [
   {
     songId: 7,
     name: 'Really',
-    releaseDate: ' June 15, 2018',
+    releaseDate: ' June 15 2018',
     coverArt: DuDuDu,
     audio: audioReally,
     lyrics: `
@@ -1080,7 +1080,7 @@ Really really really
   {
     songId: 8,
     name: 'Lovesick Girls',
-    releaseDate: 'October 2, 2020',
+    releaseDate: 'October 2 2020',
     coverArt: LoveSick,
     audio: audioLove,
     lyrics: `Yeongwonhan bam
@@ -1240,7 +1240,7 @@ Really really really
   {
     songId: 9,
     name: 'See U Later',
-    releaseDate: 'June 15, 2018',
+    releaseDate: 'June 15 2018',
     coverArt: DuDuDu,
     audio: audioSee,
     lyrics: `
@@ -1491,7 +1491,7 @@ Really really really
   {
     songId: 10,
     name: 'Boombayah',
-    releaseDate: 'August 8, 2016',
+    releaseDate: 'August 8 2016',
     coverArt: Boombayah,
     audio: audioBoom,
     lyrics: `BLACKPINK in your area

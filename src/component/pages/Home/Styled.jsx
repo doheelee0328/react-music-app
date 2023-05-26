@@ -40,13 +40,13 @@ export const Container = styled.div`
   flex-direction: column;
   max-width: 400px;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 80px;
 `
 export const Container2 = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 240px;
-  margin-top: 20px;
+  margin-top: 55px;
   max-width: 500px;
   text-align: center;
 `

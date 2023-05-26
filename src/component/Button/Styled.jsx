@@ -23,10 +23,24 @@ export const Buttons = styled.button`
     width: ${styledProps.width};
     height: ${styledProps.height};
     border-radius: ${styledProps.borderRadius};
+    font-size: ${styledProps.fontSize};
   `}
 `
 export const primaryButton = {
   width: '20vw',
-  height: '4.5vh',
+  height: '5vh',
   borderRadius: '20px',
+}
+
+export const sqaureButton = {
+  width: '22vw',
+  height: '4vh',
+  fontSize: '15px',
+}
+
+export const smallButton = {
+  width: '8vw',
+  height: '4vh',
+  borderRadius: '20px',
+  fontSize: '15px',
 }

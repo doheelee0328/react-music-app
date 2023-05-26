@@ -1,9 +1,9 @@
 import React from 'react'
 import { Buttons } from './Styled'
 
-const Button = ({ displayText, styledProps, navigate }) => {
+const Button = ({ displayText, buttonsProps, styledProps }) => {
   return (
-    <Buttons styledProps={styledProps} onClick={navigate}>
+    <Buttons type='submit' onClick={buttonsProps} styledProps={styledProps}>
       {displayText}
     </Buttons>
   )

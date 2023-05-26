@@ -33,7 +33,10 @@ export const Image = styled.img`
 export const AboutContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 5%;
+  margin: auto;
+  align-items: center;
+  /* width: 1000px; */
 `
 export const ButtonContainer = styled.div`
   padding-top: 15px;

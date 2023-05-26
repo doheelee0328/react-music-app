@@ -22,6 +22,7 @@ export const List = styled.li`
     margin: 1px;
     cursor: pointer;
     font-size: 20px;
+    font-weight: 900;
   }
 
   a::after {

@@ -1,5 +1,7 @@
 import { useState } from 'react'
 // import SongLists from './SongLists'
+import { FormContainer, ButtonContainer, InputWrapper } from './Form.styled'
+import Button from '../../../Button/Button'
 
 const Form = ({ filterHandler }) => {
   const [text, setText] = useState('')
@@ -15,11 +17,19 @@ const Form = ({ filterHandler }) => {
     }
   }
   return (
-    <form onSubmit={submitHandler}>
-      <p>Find you favourite song name</p>
-      <input type='text' onChange={inputTextHandler} value={text}></input>
-      <button type='submit'>Submit</button>
-    </form>
+    <FormContainer>
+      <form onSubmit={submitHandler}>
+        <p>
+          <span> Find </span>Songs
+        </p>
+        <InputWrapper>
+          <input type='text' onChange={inputTextHandler} value={text}></input>
+          <ButtonContainer>
+            <i className='fa-solid fa-magnifying-glass' type='submit'></i>
+          </ButtonContainer>
+        </InputWrapper>
+      </form>
+    </FormContainer>
   )
 }
 

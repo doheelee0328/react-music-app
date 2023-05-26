@@ -3,6 +3,7 @@ import { songs } from '../ArtistSongs/ArtistSongs'
 import { Form, SongLists } from '..'
 import { useSelector, useDispatch } from 'react-redux'
 import { filterSong, showFilterComponent } from '../../../action-creator/filter'
+import { theme } from '../../../../theme/theme'
 
 // used to extract data from the Redux store
 
@@ -24,12 +25,23 @@ const FindSongs = () => {
 
   let songData = <SongLists />
   if (filterSongs.length === 0) {
-    songData = <p>Cannot find the song name, please try again</p>
+    songData = (
+      <p
+        style={{
+          fontSize: '30px',
+          textAlign: 'center',
+          color: theme.color.black,
+          marginTop: '8%',
+          fontWeight: '900',
+        }}
+      >
+        Cannot find the song name, please try again
+      </p>
+    )
   }
 
   return (
     <>
-      <h1>My favorite Artist</h1>
       <Form filterHandler={filterHandler}></Form>
       {showSong && songData}
     </>
