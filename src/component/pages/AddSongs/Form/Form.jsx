@@ -1,4 +1,9 @@
 import { useState } from 'react'
+import { Heading, Span, LabelContainer } from './Form.styled'
+import { FormContainer } from '../../Findsongs/Form/Form.styled'
+import { primaryButton } from '../../../Button/Styled'
+import Button from '../../../Button/Button'
+
 const Form = ({ addSongs }) => {
   const [inputName, setInputName] = useState('')
   const [inputImage, setInputImage] = useState('')
@@ -27,16 +32,28 @@ const Form = ({ addSongs }) => {
     setInputAudio('')
   }
   return (
-    <form onSubmit={submitHandler}>
-      <h1>Add songs</h1>
-      <label>Song Title</label>
-      <input type='text' onChange={inputTextHandlder} value={inputName} />
-      <label>Image</label>
-      <input type='text' onChange={inputImageHandlder} value={inputImage} />
-      <label>Audio</label>
-      <input type='text' onChange={inputAudioHandler} value={inputAudio} />
-      <input type='submit' value='Add' />
-    </form>
+    <FormContainer>
+      <form onSubmit={submitHandler}>
+        <Heading>
+          <Span>Add</Span> songs
+        </Heading>
+        <LabelContainer>
+          <div className='title'>
+            <label>Song Title</label>
+            <input type='text' onChange={inputTextHandlder} value={inputName} />
+          </div>
+          <div className='image'>
+            <label>Image</label>
+            <input
+              type='text'
+              onChange={inputImageHandlder}
+              value={inputImage}
+            />
+          </div>
+          <Button styledProps={primaryButton} displayText='Add'></Button>
+        </LabelContainer>
+      </form>
+    </FormContainer>
   )
 }
 

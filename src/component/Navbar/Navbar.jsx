@@ -27,12 +27,12 @@ const Navbar = () => {
         </List>
         <List>
           <NavLink to='/findSongs' style={navActive}>
-            Find Your Songs
+            Find Songs
           </NavLink>
         </List>
         <List>
           <NavLink to='/addSongs' style={navActive}>
-            Add your Song Here
+            Add Songs
           </NavLink>
         </List>
         <List>
