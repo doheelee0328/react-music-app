@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useAuthentication } from '../../context/context'
 import BlackpinkRectangle from '../../../images/Rectangle 10 (2).png'
 import {
@@ -13,9 +13,12 @@ import {
   MoreContainer,
   Heading2,
 } from './Styled'
+import { useDispatch } from 'react-redux'
+import { loggedIn } from '../../action-creator/filter'
 
 const Home = () => {
   const { user } = useAuthentication()
+  const dispatch = useDispatch()
 
   const rose = 'rose'
   const jisoo = 'jisoo'

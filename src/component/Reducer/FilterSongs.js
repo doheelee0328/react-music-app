@@ -4,6 +4,7 @@ import { songs } from '../pages/Findsongs/ArtistSongs/ArtistSongs'
 const initialState = {
   filterSong: songs,
   showSong: false,
+  loggedIn: false,
 }
 
 const filterSongs = (state = initialState, action) => {
@@ -15,6 +16,8 @@ const filterSongs = (state = initialState, action) => {
       return { ...state, filterSong: action.payload }
     case 'SHOWSONG':
       return { ...state, showSong: action.payload }
+    case 'LoggedIn':
+      return { ...state, loggedIn: action.payload }
     default:
       return state
   }

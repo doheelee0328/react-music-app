@@ -8,6 +8,7 @@ export const AuthContextProvider = ({ children }) => {
   return (
     <AuthContext.Provider value={{ user, setUser }}>
       {/* name of the context and this providees with the value that are states */}
+
       {children}
     </AuthContext.Provider>
   )
