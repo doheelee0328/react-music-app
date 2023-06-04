@@ -31,7 +31,8 @@ User Interface: The app boasts a user-friendly and visually appealing interface,
 
 These features aim to provide Blackpink fans with a delightful music experience, allowing them to search for their favorite songs, create personalized playlists, and easily access their preferred tracks. The app's user interface ensures a smooth and enjoyable interaction, making it a perfect companion for Blackpink enthusiasts.
 
-## Figma 
+## Figma Design
+I utilized Figma, a powerful design tool, to create the website design for this project. Figma allowed me to efficiently design and prototype the user interface, ensuring a visually appealing and user-friendly website.
 
 <img width="806" alt="Screenshot 2023-06-04 at 16 57 07" src="https://github.com/doheelee0328/react-music-app/assets/112406576/ae3e92be-beed-4cfb-937e-f866df91ffeb">
 
