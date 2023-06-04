@@ -1,12 +1,4 @@
 # react-music-app
-<img width="1246" alt="Screenshot 2023-06-04 at 17 17 24" src="https://github.com/doheelee0328/react-music-app/assets/112406576/6194f222-33f1-47e6-80b5-222daa60dc61">
-<img width="1290" alt="Screenshot 2023-06-04 at 17 17 31" src="https://github.com/doheelee0328/react-music-app/assets/112406576/808affe8-ed96-4702-ac52-20490434f8a6">
-<img width="1427" alt="Screenshot 2023-06-04 at 17 17 39" src="https://github.com/doheelee0328/react-music-app/assets/112406576/4c179b3e-008b-449a-8664-57f6d4050252">
-<img width="1412" alt="Screenshot 2023-06-04 at 17 17 46" src="https://github.com/doheelee0328/react-music-app/assets/112406576/1ef84c1e-20ad-4f07-a808-58db72f6b4f4">
-<img width="1429" alt="Screenshot 2023-06-04 at 17 17 54" src="https://github.com/doheelee0328/react-music-app/assets/112406576/21dc2a72-7ce6-41b1-8c52-b9feb4ab5afb">
-
-
-
 
 ## How to run 
 
@@ -20,6 +12,13 @@ To run the React music app, please follow these steps:
 "npm run dev"
 <br>
 **Important : Do not use the Go Live server extension for this app. Instead, use the provided development server command "npm run dev" to ensure proper functionality. 
+
+
+## Figma Design
+I utilized Figma, a powerful design tool, to create the website design for this project. Figma allowed me to efficiently design and prototype the user interface, ensuring a visually appealing and user-friendly website.
+
+<img width="806" alt="Screenshot 2023-06-04 at 16 57 07" src="https://github.com/doheelee0328/react-music-app/assets/112406576/ae3e92be-beed-4cfb-937e-f866df91ffeb">
+
 
 ## Features 
 
@@ -37,12 +36,13 @@ User Interface: The app boasts a user-friendly and visually appealing interface,
 
 These features aim to provide Blackpink fans with a delightful music experience, allowing them to search for their favorite songs, create personalized playlists, and easily access their preferred tracks. The app's user interface ensures a smooth and enjoyable interaction, making it a perfect companion for Blackpink enthusiasts.
 
-## Figma Design
-I utilized Figma, a powerful design tool, to create the website design for this project. Figma allowed me to efficiently design and prototype the user interface, ensuring a visually appealing and user-friendly website.
+## Application
 
-<img width="806" alt="Screenshot 2023-06-04 at 16 57 07" src="https://github.com/doheelee0328/react-music-app/assets/112406576/ae3e92be-beed-4cfb-937e-f866df91ffeb">
-
-
+<img width="1246" alt="Screenshot 2023-06-04 at 17 17 24" src="https://github.com/doheelee0328/react-music-app/assets/112406576/6194f222-33f1-47e6-80b5-222daa60dc61">
+<img width="1290" alt="Screenshot 2023-06-04 at 17 17 31" src="https://github.com/doheelee0328/react-music-app/assets/112406576/808affe8-ed96-4702-ac52-20490434f8a6">
+<img width="1427" alt="Screenshot 2023-06-04 at 17 17 39" src="https://github.com/doheelee0328/react-music-app/assets/112406576/4c179b3e-008b-449a-8664-57f6d4050252">
+<img width="1412" alt="Screenshot 2023-06-04 at 17 17 46" src="https://github.com/doheelee0328/react-music-app/assets/112406576/1ef84c1e-20ad-4f07-a808-58db72f6b4f4">
+<img width="1429" alt="Screenshot 2023-06-04 at 17 17 54" src="https://github.com/doheelee0328/react-music-app/assets/112406576/21dc2a72-7ce6-41b1-8c52-b9feb4ab5afb">
 
 
 
