@@ -36,7 +36,7 @@ const ArtistInfo = () => {
           <ButtonContainer>
             <Button
               buttonsProps={navigateFindSongs}
-              styledProps={primaryButton}
+              styledprops={primaryButton}
               displayText='Explore Songs'
             ></Button>
           </ButtonContainer>

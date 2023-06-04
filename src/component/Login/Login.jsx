@@ -50,7 +50,7 @@ const Login = () => {
         <Button
           displayText='Submit'
           type='submit'
-          styledProps={primaryButton}
+          styledprops={primaryButton}
         ></Button>
       </Input>
     </Form>

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { theme } from '../../theme/theme'
 
-export const Buttons = styled.button`
+export const StyledButton = styled.button`
   border: solid 2px ${theme.color.pink};
   background-color: ${theme.color.white};
   color: ${theme.color.pink};
@@ -19,11 +19,11 @@ export const Buttons = styled.button`
     box-shadow: 5px 5px 2px rgba(209, 145, 162, 0.5);
   }
 
-  ${({ styledProps }) => css`
-    width: ${styledProps.width};
-    height: ${styledProps.height};
-    border-radius: ${styledProps.borderRadius};
-    font-size: ${styledProps.fontSize};
+  ${({ styledprops }) => css`
+    width: ${styledprops.width};
+    height: ${styledprops.height};
+    border-radius: ${styledprops.borderRadius};
+    font-size: ${styledprops.fontSize};
   `}
 `
 export const primaryButton = {

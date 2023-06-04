@@ -13,7 +13,7 @@ const SongList = ({ listSongs, deleteSongs }) => {
           </p>
           <img className='songImage' src={el.songImage} alt={index} />
           <Button
-            styledProps={smallButton}
+            styledprops={smallButton}
             buttonsProps={() => deleteSongs(el)}
             displayText='Delete'
           ></Button>

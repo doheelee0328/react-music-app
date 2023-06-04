@@ -50,7 +50,7 @@ const Form = ({ addSongs }) => {
               value={inputImage}
             />
           </div>
-          <Button styledProps={primaryButton} displayText='Add'></Button>
+          <Button styledprops={primaryButton} displayText='Add'></Button>
         </LabelContainer>
       </form>
     </FormContainer>

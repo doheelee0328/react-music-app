@@ -38,8 +38,8 @@ const SongDetails = () => {
         </button> */}
         <div className='firstButton'>
           <Button
-            styledProps={sqaureButton}
-            displayText=' Show Korean / Roman Characters'
+            styledprops={sqaureButton}
+            displayText='Show Korean / Roman Characters'
             buttonsProps={showKoreanHandler}
           ></Button>
         </div>
@@ -49,7 +49,7 @@ const SongDetails = () => {
           <p className='korean'>{filter.lyrics}</p>
         )}
         <Button
-          styledProps={smallButton}
+          styledprops={smallButton}
           displayText=' Back'
           buttonsProps={goBackButton}
         ></Button>
