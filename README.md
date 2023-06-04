@@ -1,5 +1,7 @@
 # react-music-app
 
+The music app developed for the La Fosse Academy challenge, featuring Blackpink as the artist
+
 ## How to run 
 
 To run the React music app, please follow these steps:
@@ -22,7 +24,7 @@ I utilized Figma, a powerful design tool, to create the website design for this 
 
 ## Features 
 
-The music app developed for the La Fosse Academy challenge, featuring Blackpink as the artist, offers the following key features:
+The music app offers the following key features:
 
 Song Search: Easily search for your favorite songs by title. The app provides a user-friendly search functionality, allowing you to find specific songs quickly and efficiently.
 
