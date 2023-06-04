@@ -1,4 +1,10 @@
 # react-music-app
+<img width="1246" alt="Screenshot 2023-06-04 at 17 17 24" src="https://github.com/doheelee0328/react-music-app/assets/112406576/6194f222-33f1-47e6-80b5-222daa60dc61">
+<img width="1290" alt="Screenshot 2023-06-04 at 17 17 31" src="https://github.com/doheelee0328/react-music-app/assets/112406576/808affe8-ed96-4702-ac52-20490434f8a6">
+<img width="1427" alt="Screenshot 2023-06-04 at 17 17 39" src="https://github.com/doheelee0328/react-music-app/assets/112406576/4c179b3e-008b-449a-8664-57f6d4050252">
+<img width="1412" alt="Screenshot 2023-06-04 at 17 17 46" src="https://github.com/doheelee0328/react-music-app/assets/112406576/1ef84c1e-20ad-4f07-a808-58db72f6b4f4">
+<img width="1429" alt="Screenshot 2023-06-04 at 17 17 54" src="https://github.com/doheelee0328/react-music-app/assets/112406576/21dc2a72-7ce6-41b1-8c52-b9feb4ab5afb">
+
 
 
 
