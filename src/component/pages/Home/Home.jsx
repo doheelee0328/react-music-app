@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useAuthentication } from '../../context/context'
+import { useAuthentication } from '../../context/Context'
 import BlackpinkRectangle from '../../../images/Rectangle 10 (2).png'
 import {
   Heading,

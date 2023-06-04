@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { useAuthentication } from '../context/context'
+import { useAuthentication } from '../context/Context'
 import { useNavigate } from 'react-router-dom'
 import Button from '../Button/Button'
 import BlackPinkImage from '../../images/blackpink.png'

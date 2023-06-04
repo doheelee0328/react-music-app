@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
-import { useAuthentication } from '../context/context'
+import { useAuthentication } from '../context/Context'
 
 export default function ProtectRoute({ redirect }) {
   const { user } = useAuthentication()
